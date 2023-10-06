@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijeras</title>
+    
+</head>
+<body>
+    <h1>JUEGO DEL PIEDRA / PAPEL / TIJERAS</h1>
+    <p><b>Elige una opción para tu jugada:</b></p>
+    <input type="radio" name="opcion" value="piedra"> Piedra
+    <br>
+    <input type="radio" name="opcion" value="papel"> Papel
+    <br>
+    <input type="radio" name="opcion" value="tijeras"> Tijeras
+    <br>
+    
+    <p><b>RESULTADO:</b></p>
+    <p id="resultado"></p>
+    <p><b>JUGADAS GANADAS O PERDIDAS:</b></p>
+    <p>Victorias: <span id="victorias">0</span></p>
+    <p>Empates: <span id="empates">0</span></p>
+    <p>Derrotas: <span id="derrotas">0</span></p>
+	<br>
+	<button onclick="jugar()">¡Jugar!</button>
+    <button onclick="reiniciarMarcadores()">Reiniciar Marcadores</button>
+    <button onclick="borrarSeleccion()">Borrar Selección</button>
+    
+</body>
+<script src="ppt.js"></script>
+</html>
